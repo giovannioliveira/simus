@@ -1,5 +1,7 @@
 Enunciado do Trabalho de Programação
 
+Entrega: quinta, 3 Mai 2018, 01:00
+
     1) Escrever uma rotina para imprimir o valor em hexadecimal de um byte na console e no banner. O valor é passado no acumulador. Apresente um programa exemplo com com 3 valores diferentes. (1,5 ponto)
     
     2) Escrever uma rotina para comparar o valor de duas variáveis de 16 bits com sinal. O endereço das variáveis é passado na pilha. O resultado é retornado no acumulador. Se as variáveis forem iguais o valor retornado é zero, se a primeira variável for maior o resultado é 1, se for menor o resultado é -1. Apresentar um programa exemplo que imprima o resultado na console. (1,5 ponto)
@@ -10,4 +12,4 @@ Enunciado do Trabalho de Programação
 
     5) Escrever um programa para determinar o número de elementos positivos, negativos e iguais a zero em um vetor com elementos de 16 bits. Apresente um exemplo com um vetor com pelo menos 20 posições e que imprima o resultado em hexadecimal na console. (2,0 pontos)
 
-    6) Escrever um programa para encontrar o maior valor em um vetor com vetor com variáveis de 16 bits com sinal. O endereço inicial do vetor é passado na pilha e o seu tamanho no acumulador. O índice do maior elemento é retornado no acumulador. Apresentar um programa exemplo com um vetor de 20 posições que imprima o maior valor encontrado em hexadecimal na console. (2,0 pontos
+    6) Escrever um programa para encontrar o maior valor em um vetor com vetor com variáveis de 16 bits com sinal. O endereço inicial do vetor é passado na pilha e o seu tamanho no acumulador. O índice do maior elemento é retornado no acumulador. Apresentar um programa exemplo com um vetor de 20 posições que imprima o maior valor encontrado em hexadecimal na console. (2,0 pontos)
