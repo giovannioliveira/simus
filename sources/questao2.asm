@@ -1,6 +1,7 @@
 ORG 150
 
-str1: STR "-1"
+str11: STR "-"
+str12: STR "1"
 str2: STR "0"
 str3: STR "1"
 
@@ -45,18 +46,20 @@ SWITCH:
     JZ CASE3
 
 CASE1:
-    LDA #4
-    TRAP str1
+    LDA str11
+    OUT #2
+    LDA str12
+    OUT #2
     JMP END
 
 CASE2:
-    LDA #4
-    TRAP str2
+    LDA str2
+    OUT #2
     JMP END
 
 CASE3:
-    LDA #4
-    TRAP str3
+    LDA str3
+    OUT #2
     JMP END
 
 ROTINA:
